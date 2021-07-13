@@ -19,7 +19,7 @@ public class DataEntry {
 			
 			//step-3 (Define A SQL Command)
 			//String sql="INSERT INTO emp VALUES(112,'BBB',20000)";
-			String sql="INSERT INTO emp VALUES (113,'CCC',30000),(114,'DDD',40000),(115,'EEE',50000)";
+			String sql="INSERT INTO emp VALUES (111,'AAA',10000),(112,'BBB',20000),(113,'CCC',30000),(114,'DDD',40000),(115,'EEE',50000)";
 			//step-4 (Dispatching SQL Command To DB using Statement Object)
 			Statement stmt=con.createStatement();
 			int n=stmt.executeUpdate(sql);

@@ -10,6 +10,7 @@ public class DDLExample {
 		//String sql = "CREATE TABLE IF NOT EXISTS dummy(col1 char, col2 char)";
 		String sql="DROP TABLE dummy";
 		Statement stmt = con.createStatement();
+		
 		int n = stmt.executeUpdate(sql);
 		//System.out.println(n+" TABLE CREATED...!");
 		System.out.println("TABLE DROPPED...!");
